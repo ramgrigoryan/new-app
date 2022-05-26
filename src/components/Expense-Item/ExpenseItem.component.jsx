@@ -1,6 +1,7 @@
-function ExpenseItem (){
+function ExpenseItem (props){
+    const {date,item,price} = props.expense;
     return (
-        <h2>Shopping at mall - $86.5</h2>
+        <h2>{date}  :  {item} -  ${price}</h2>
     )
 }
 export default ExpenseItem;
