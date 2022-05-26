@@ -4,22 +4,22 @@ import ExpenseItem from "./components/Expense-Item/ExpenseItem.component";
 function App() {
   const expenses = [
     {
-      date: new Date().toISOString(),
+      date: new Date(),
       item: "Car Insuranse",
       price: "84.5",
     },
     {
-      date: new Date("2022-04-26").toISOString(),
+      date: new Date("2022-04-26"),
       item: "Dantist",
       price: "56",
     },
     {
-      date: new Date("2022-04-15").toISOString(),
+      date: new Date("2022-04-15"),
       item: "Trip",
       price: "450",
     },
     {
-      date: new Date("2022-03-28").toISOString(),
+      date: new Date("2022-03-28"),
       item: "Birthday Party",
       price: "215",
     },
